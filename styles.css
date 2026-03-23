@@ -133,90 +133,182 @@ body {
 }
 
 @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.6; }
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
 }
 
 .section-content {
     min-height: 200px;
 }
 
-.data-card {
+.card {
     background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 1.25rem;
     margin-bottom: 1rem;
-    border-left: 4px solid var(--border-color);
-    transition: border-left-color 0.2s ease;
+    transition: all 0.2s ease;
 }
 
-.data-card:last-child {
-    margin-bottom: 0;
+.card:hover {
+    border-color: var(--accent-revenue);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.revenue-section .data-card {
-    border-left-color: var(--accent-revenue);
+/* Clickable Card Styles - NEW */
+.clickable-card {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
 }
 
-.market-section .data-card {
-    border-left-color: var(--accent-market);
+.clickable-card:hover {
+    transform: translateX(4px);
+    border-color: var(--status-green);
+    box-shadow: 0 6px 16px rgba(46, 213, 115, 0.15);
 }
 
-.capital-section .data-card {
-    border-left-color: var(--accent-capital);
+.clickable-card::before {
+    content: '🔍';
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    font-size: 14px;
 }
 
-.operational-section .data-card {
-    border-left-color: var(--accent-operational);
+.clickable-card:hover::before {
+    opacity: 1;
 }
 
-.data-card h3 {
+.card h3 {
     font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+    padding-right: 24px;
+}
+
+.card .description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.card .value,
+.card .company,
+.card .amount,
+.card .round {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
     margin-bottom: 0.5rem;
+}
+
+.card .value strong,
+.card .company strong,
+.card .amount strong,
+.card .round strong {
     color: var(--text-primary);
 }
 
-.data-card p {
+.loading,
+.empty,
+.error {
+    text-align: center;
     color: var(--text-secondary);
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    padding: 2rem;
 }
 
-.data-card .meta {
+.error {
+    color: var(--status-red);
+}
+
+#vc-news {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+#vc-news .card-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#vc-news h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#vc-news .card-content {
+    margin-top: 1rem;
+}
+
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-label {
+    display: block;
     font-size: 0.85rem;
     color: var(--text-secondary);
-    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
 }
 
-.data-card .tag {
-    background: var(--bg-primary);
-    padding: 0.25rem 0.75rem;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    border: 1px solid var(--border-color);
-}
-
-.data-card .value {
-    font-weight: 600;
+.stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--text-primary);
 }
 
-.loading {
-    text-align: center;
-    color: var(--text-secondary);
-    padding: 2rem;
+.tier-header {
+    margin: 1.5rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
 }
 
-.dashboard-footer {
-    text-align: center;
-    padding: 2rem;
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    border-top: 1px solid var(--border-color);
-    margin-top: 2rem;
+.tier-header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#vc-hot-deals .tier-header {
+    border-bottom-color: var(--status-red);
+}
+
+#vc-hot-deals .tier-header h3 {
+    color: var(--status-red);
+}
+
+#vc-warm-deals .tier-header {
+    border-bottom-color: var(--status-yellow);
+}
+
+#vc-warm-deals .tier-header h3 {
+    color: var(--status-yellow);
+}
+
+.deal-card {
+    margin-bottom: 0.75rem;
 }
 
 @media (max-width: 768px) {
@@ -224,8 +316,21 @@ body {
         grid-template-columns: 1fr;
         padding: 1rem;
     }
-    
+
+    .dashboard-header {
+        padding: 1.5rem 1rem;
+    }
+
     .dashboard-header h1 {
         font-size: 1.8rem;
+    }
+
+    .stats-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .card h3 {
+        font-size: 1rem;
     }
 }
