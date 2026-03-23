@@ -4,72 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Dashboard | Simon Cheng</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="dashboard-header">
-        <div class="header-content">
-            <h1>Portfolio Dashboard</h1>
-            <p class="subtitle">Real-time command center for venture portfolio</p>
-            <div class="last-updated">
-                <span id="update-timestamp">Loading...</span>
-            </div>
+        <h1>Portfolio Dashboard</h1>
+        <p class="subtitle">Real-time venture portfolio intelligence</p>
+        <div class="last-updated">
+            <span>Last Updated: <span id="update-timestamp">Loading...</span></span>
         </div>
     </header>
 
-    <main class="dashboard-content">
+    <main class="dashboard-grid">
         <!-- Revenue Signals Section -->
-        <section class="vertical-section" id="revenue-signals">
+        <section class="dashboard-section revenue-section">
             <div class="section-header">
                 <h2>Revenue Signals</h2>
-                <span class="status-indicator" data-source="revenue-signals"></span>
+                <div class="status-indicator status-green"></div>
             </div>
-            <div class="section-content">
-                <div class="data-grid" id="revenue-grid"></div>
+            <div class="section-content" id="revenue-signals-content">
+                <div class="loading">Loading...</div>
             </div>
         </section>
 
         <!-- Market Intelligence Section -->
-        <section class="vertical-section" id="market-intel">
+        <section class="dashboard-section market-section">
             <div class="section-header">
                 <h2>Market Intelligence</h2>
-                <span class="status-indicator" data-source="market-intel"></span>
+                <div class="status-indicator status-yellow"></div>
             </div>
-            <div class="section-content">
-                <div class="data-grid" id="market-grid"></div>
+            <div class="section-content" id="market-intel-content">
+                <div class="loading">Loading...</div>
             </div>
         </section>
 
         <!-- Capital Markets Section -->
-        <section class="vertical-section" id="capital-markets">
+        <section class="dashboard-section capital-section">
             <div class="section-header">
                 <h2>Capital Markets</h2>
-                <span class="status-indicator" data-source="capital-markets"></span>
+                <div class="status-indicator status-green"></div>
             </div>
-            <div class="section-content">
-                <div class="data-grid" id="capital-grid"></div>
+            <div class="section-content" id="capital-markets-content">
+                <div class="loading">Loading...</div>
             </div>
         </section>
 
         <!-- Operational Health Section -->
-        <section class="vertical-section" id="operational-health">
+        <section class="dashboard-section operational-section">
             <div class="section-header">
                 <h2>Operational Health</h2>
-                <span class="status-indicator" data-source="operational-health"></span>
+                <div class="status-indicator status-red"></div>
             </div>
-            <div class="section-content">
-                <div class="data-grid" id="health-grid"></div>
+            <div class="section-content" id="operational-health-content">
+                <div class="loading">Loading...</div>
             </div>
         </section>
     </main>
 
     <footer class="dashboard-footer">
-        <div class="footer-content">
-            <p>Verticals: GPU/AI Infrastructure | Resources | Trades | Healthcare | Capital Markets</p>
-            <p class="footer-note">Data sources: Manual entry (Phase 1) | Automated feeds (Phase 2)</p>
-        </div>
+        <p>&copy; 2026 Simon Cheng Portfolio Dashboard</p>
     </footer>
 
-    <script src="js/dashboard.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
