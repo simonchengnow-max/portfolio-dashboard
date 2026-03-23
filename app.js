@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loadMarketIntel();
     loadCapitalMarkets();
     loadOperationalHealth();
+    loadVCNewsDaily();
     
     // Update timestamp
     updateTimestamp();
@@ -72,6 +73,59 @@ async function loadOperationalHealth() {
     }
 }
 
+async function loadVCNewsDaily() {
+    try {
+        const response = await fetch('data/vc-news-daily.json');
+        const data = await response.json();
+        
+        // Update stats
+        const totalDeals = (data.hot_deals?.length || 0) + (data.warm_deals?.length || 0);
+        const totalCapital = data.hot_deals?.reduce((sum, deal) => sum + (deal.amount || 0), 0) + 
+                            data.warm_deals?.reduce((sum, deal) => sum + (deal.amount || 0), 0) || 0;
+        const lastUpdated = data.last_scraped || 'Unknown';
+        
+        document.getElementById('vc-total-deals').textContent = totalDeals;
+        document.getElementById('vc-total-capital').textContent = '$' + (totalCapital / 1000000).toFixed(1) + 'M';
+        document.getElementById('vc-last-updated').textContent = lastUpdated;
+        
+        // Render hot deals
+        renderVCDeals('vc-hot-deals', data.hot_deals || [], 'HOT');
+        
+        // Render warm deals
+        renderVCDeals('vc-warm-deals', data.warm_deals || [], 'WARM');
+        
+    } catch (error) {
+        console.error('Error loading VC News Daily:', error);
+        document.getElementById('vc-hot-deals').innerHTML = 
+            '<div class="error">Error loading VC deals data</div>';
+        document.getElementById('vc-warm-deals').innerHTML = '';
+    }
+}
+
+function renderVCDeals(containerId, deals, tier) {
+    const container = document.getElementById(containerId);
+    
+    if (!deals || deals.length === 0) {
+        container.innerHTML = `<div class="loading">No ${tier.toLowerCase()} deals available</div>`;
+        return;
+    }
+    
+    let html = `<h3 class="tier-label tier-${tier.toLowerCase()}">${tier} DEALS</h3>`;
+    deals.forEach(deal => {
+        const formattedAmount = deal.amount ? `$${(deal.amount / 1000000).toFixed(1)}M` : 'Undisclosed';
+        html += `
+            <div class="data-card">
+                <h3>${deal.company || 'Unknown Company'}</h3>
+                <p><strong>Round:</strong> ${deal.round || 'N/A'}</p>
+                <p><strong>Amount:</strong> ${formattedAmount}</p>
+                <p>${deal.description || ''}</p>
+            </div>
+        `;
+    });
+    
+    container.innerHTML = html;
+}
+
 function renderSection(elementId, items, type) {
     const container = document.getElementById(elementId);
     
@@ -86,30 +140,12 @@ function renderSection(elementId, items, type) {
             <div class="data-card">
                 <h3>${item.title}</h3>
                 ${item.description ? `<p>${item.description}</p>` : ''}
-                <div class="meta">
-                    ${item.value ? `<span class="value">${item.value}</span>` : ''}
-                    ${item.date ? `<span>${formatDate(item.date)}</span>` : ''}
-                    ${item.source ? `<span class="tag">${item.source}</span>` : ''}
-                    ${item.status ? `<span class="tag status-${item.status.toLowerCase()}">${item.status}</span>` : ''}
-                    ${item.sector ? `<span class="tag">${item.sector}</span>` : ''}
-                </div>
+                ${item.value ? `<p><strong>Value:</strong> ${item.value}</p>` : ''}
+                ${item.company ? `<p><strong>Company:</strong> ${item.company}</p>` : ''}
+                ${item.amount ? `<p><strong>Amount:</strong> ${item.amount}</p>` : ''}
             </div>
         `;
     });
     
     container.innerHTML = html;
 }
-
-function formatDate(dateString) {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-}
-
-// Auto-refresh every 5 minutes
-setInterval(function() {
-    loadRevenueSignals();
-    loadMarketIntel();
-    loadCapitalMarkets();
-    loadOperationalHealth();
-    updateTimestamp();
-}, 300000);
