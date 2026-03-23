@@ -10,7 +10,9 @@
       "status": "In Progress",
       "sector": "AI Agents/SaaS",
       "lead_investor": "Tier 1 VC (TBD)",
-      "expected_close": "Q2 2026"
+      "expected_close": "Q2 2026",
+      "internal": true,
+      "internal_note": "Confidential deal flow - portfolio company fundraising"
     },
     {
       "title": "Strategic Acquisition - Robotics Co",
@@ -21,7 +23,9 @@
       "status": "Early Discussions",
       "sector": "Robotics",
       "acquirer": "US Industrial Automation Co",
-      "advisor": "Boutique IB firm"
+      "advisor": "Boutique IB firm",
+      "internal": true,
+      "internal_note": "Confidential M&A discussions - NDA in place"
     },
     {
       "title": "Convertible Note - GPU Infrastructure",
@@ -32,7 +36,9 @@
       "status": "Term Sheet Signed",
       "sector": "GPU/AI Infrastructure",
       "investor": "Alberta Family Office",
-      "use_of_funds": "Site preparation, permitting"
+      "use_of_funds": "Site preparation, permitting",
+      "internal": true,
+      "internal_note": "Bridge financing for portfolio company capex"
     }
   ]
 }
