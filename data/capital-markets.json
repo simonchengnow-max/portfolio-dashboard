@@ -1,0 +1,23 @@
+{
+  "lastUpdated": "2026-03-23T00:00:00Z",
+  "source": "manual",
+  "deals": [
+    {
+      "id": "cm-001",
+      "title": "Deal Flow Placeholder",
+      "type": "fundraising",
+      "vertical": "GPU/AI",
+      "stage": "discovery",
+      "amount": "TBD",
+      "company": "Target Company",
+      "status": "tracking",
+      "notes": "M&A activity, fundraising rounds, or valuation trends",
+      "createdAt": "2026-03-23T00:00:00Z"
+    }
+  ],
+  "metadata": {
+    "totalDeals": 1,
+    "activeTransactions": 0,
+    "completedThisMonth": 0
+  }
+}
