@@ -1,4 +1,56 @@
 {
   "last_updated": "2026-03-23T13:00:00Z",
-  "intelligence": []
+  "intelligence": [
+    {
+      "title": "Nscale - $2B Series C",
+      "amount": "$2B",
+      "valuation": "$14.6B",
+      "date": "2026-03-09",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/servers/nvidia-backed-nscale-soars-to-14-6b-valuation-after-latest-funding-round",
+      "sector": "GPU Cloud"
+    },
+    {
+      "title": "Lambda - $350M Convertible Note",
+      "amount": "$350M",
+      "date": "2026-01-09",
+      "source": "WebProNews",
+      "url": "https://www.webpronews.com/nvidia-backed-lambda-raises-350m-for-ai-gpu-expansion/",
+      "sector": "GPU Cloud"
+    },
+    {
+      "title": "PaleBlueDot AI - $150M Series B",
+      "amount": "$150M",
+      "valuation": "$1B+",
+      "date": "2026-01-28",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/01/28/ai-cloud-startup-palebluedot-raises-150m-series-b-at-1b-valuation-to-scale-gpu-infrastructure/",
+      "sector": "GPU Cloud"
+    },
+    {
+      "title": "hosted.ai - $19M Seed",
+      "amount": "$19M",
+      "date": "2026-03-17",
+      "source": "hosted.ai",
+      "url": "https://hosted.ai/resources/hostedai-closes-19m-seed-round-to-transform-gpu-infrastructure-economics/",
+      "sector": "GPU Cloud"
+    },
+    {
+      "title": "Andromeda - $60M at $1.5B",
+      "amount": "$60M",
+      "valuation": "$1.5B",
+      "date": "2026-03-19",
+      "source": "Entrepreneur Loop",
+      "url": "https://entrepreneurloop.com/on-demand-gpu-startup-andromeda-1-5b-valuation/",
+      "sector": "GPU Cloud"
+    },
+    {
+      "title": "Nvidia invests $2B in CoreWeave",
+      "amount": "$2B",
+      "date": "2026-01-26",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/01/26/nvidia-invests-2b-to-help-debt-ridden-coreweave-add-5gw-of-ai-compute",
+      "sector": "GPU Cloud"
+    }
+  ]
 }
