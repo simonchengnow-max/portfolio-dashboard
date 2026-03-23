@@ -1,8 +1,8 @@
 {
   "lastUpdated": "2026-03-23",
-  "totalDeals": 30,
-  "totalCapital": "$2.4B",
-  "hot_deals": [
+  "totalDeals": 8,
+  "totalCapital": "$38M+ (verified deals only)",
+  "hotOpportunities": [
     {
       "company": "Autoscience",
       "amount": "$14M",
@@ -11,7 +11,7 @@
       "vertical": "GPU/AI Infrastructure",
       "description": "AI-powered ML research automation",
       "date": "2026-03-20",
-      "url": "https://vcnewsdaily.com/autoscience/venture-capital-funding"
+      "url": "https://vcnewsdaily.com/autoscience/venture-capital-funding/mzwqlnlpjx"
     },
     {
       "company": "Eddi",
@@ -21,7 +21,7 @@
       "vertical": "AI agents/SaaS",
       "description": "AI platform for government/education financial sustainability",
       "date": "2026-03-20",
-      "url": "https://vcnewsdaily.com/eddi/venture-capital-funding"
+      "url": "https://vcnewsdaily.com/eddi/venture-capital-funding/zssmzqqsvb"
     },
     {
       "company": "Avtal",
@@ -31,280 +31,53 @@
       "vertical": "AI agents/SaaS",
       "description": "Digital engagement platform for debt collection using AI",
       "date": "2026-03-20",
-      "url": "https://vcnewsdaily.com/avtal/venture-capital-funding"
-    },
-    {
-      "company": "WideField Security",
-      "amount": "Undisclosed",
-      "round": "Series A",
-      "investors": "Cisco Investments",
-      "vertical": "AI agents/SaaS",
-      "description": "Identity security platform for AI agents",
-      "date": "2026-03-19",
-      "url": "https://vcnewsdaily.com/widefield-security/venture-capital-funding"
-    },
-    {
-      "company": "Knox Systems",
-      "amount": "$25M",
-      "round": "Series A",
-      "investors": "B Capital, M12 (Microsoft)",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Federal AI cloud provider",
-      "date": "2026-03-18",
-      "url": "https://vcnewsdaily.com/knox-systems/venture-capital-funding"
-    },
-    {
-      "company": "Manifold Security",
-      "amount": "$8M",
-      "round": "Seed",
-      "investors": "Costanoa Ventures",
-      "vertical": "AI agents/SaaS",
-      "description": "AI Detection and Response (AIDR) platform",
-      "date": "2026-03-18",
-      "url": "https://vcnewsdaily.com/manifold-security/venture-capital-funding"
-    },
-    {
-      "company": "Multiply",
-      "amount": "$9.5M",
-      "round": "Series A",
-      "investors": "Mayfield",
-      "vertical": "AI agents/SaaS",
-      "description": "AI-native B2B media agency",
-      "date": "2026-03-18",
-      "url": "https://vcnewsdaily.com/multiply/venture-capital-funding"
-    },
-    {
-      "company": "Respan",
-      "amount": "$5M",
-      "round": "Seed",
-      "investors": "Undisclosed",
-      "vertical": "AI agents/SaaS",
-      "description": "Proactive AI observability platform",
-      "date": "2026-03-18",
-      "url": "https://vcnewsdaily.com/respan/venture-capital-funding"
-    },
-    {
-      "company": "Obin AI",
-      "amount": "$7M",
-      "round": "Seed",
-      "investors": "Motive Partners",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "AI-powered optical inspection for manufacturing",
-      "date": "2026-03-18",
-      "url": "https://vcnewsdaily.com/obin-ai/venture-capital-funding"
-    },
-    {
-      "company": "Nebula AI",
-      "amount": "$12M",
-      "round": "Seed",
-      "investors": "NVIDIA, Dell Technologies Capital",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Edge AI inference platform",
-      "date": "2026-03-17",
-      "url": "https://vcnewsdaily.com/nebula-ai/venture-capital-funding"
-    },
-    {
-      "company": "Cognition Labs",
-      "amount": "$175M",
-      "round": "Series B",
-      "investors": "Founders Fund, CRV",
-      "vertical": "AI agents/SaaS",
-      "description": "AI software engineer (Devin)",
-      "date": "2026-03-17",
-      "url": "https://vcnewsdaily.com/cognition-labs/venture-capital-funding"
-    },
-    {
-      "company": "LangChain",
-      "amount": "$25M",
-      "round": "Seed",
-      "investors": "Benchmark, Andreessen Horowitz",
-      "vertical": "AI agents/SaaS",
-      "description": "LLM application development framework",
-      "date": "2026-03-16",
-      "url": "https://vcnewsdaily.com/langchain/venture-capital-funding"
-    },
-    {
-      "company": "Hugging Face",
-      "amount": "$235M",
-      "round": "Series D",
-      "investors": "Salesforce, Google, Amazon",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "AI model hub and collaboration platform",
-      "date": "2026-03-15",
-      "url": "https://vcnewsdaily.com/hugging-face/venture-capital-funding"
-    },
-    {
-      "company": "Anthropic",
-      "amount": "$4B",
-      "round": "Series C",
-      "investors": "Amazon, Google, Salesforce",
-      "vertical": "AI agents/SaaS",
-      "description": "AI safety and research lab (Claude)",
-      "date": "2026-03-14",
-      "url": "https://vcnewsdaily.com/anthropic/venture-capital-funding"
-    },
-    {
-      "company": "Scale AI",
-      "amount": "$1B",
-      "round": "Series G",
-      "investors": "Dragoneer, T. Rowe Price",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "AI training data platform",
-      "date": "2026-03-13",
-      "url": "https://vcnewsdaily.com/scale-ai/venture-capital-funding"
+      "url": "https://vcnewsdaily.com/avtal/venture-capital-funding/dpbkrrbwch"
     }
   ],
-  "warm_deals": [
+  "warmSignals": [
     {
-      "company": "Cerebras Systems",
-      "amount": "$250M",
-      "round": "Series E",
-      "investors": "Dragoneer",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "AI chip manufacturer (wafer-scale processor)",
+      "company": "Earendil Labs",
+      "amount": "$787M",
+      "round": "Financing",
+      "investors": "Dimension, DST Global, Sanofi",
+      "vertical": "Biotech/AI",
+      "description": "AI-driven biotech company",
       "date": "2026-03-20",
-      "url": "https://vcnewsdaily.com/cerebras-systems/venture-capital-funding"
-    },
-    {
-      "company": "Lambda Labs",
-      "amount": "$675M",
-      "round": "Series C",
-      "investors": "Morgan Stanley",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "GPU cloud and workstation provider",
-      "date": "2026-03-19",
-      "url": "https://vcnewsdaily.com/lambda-labs/venture-capital-funding"
-    },
-    {
-      "company": "CoreWeave",
-      "amount": "$1.1B",
-      "round": "Series B",
-      "investors": "Magnetar, Fidelity",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "GPU cloud for AI workloads",
-      "date": "2026-03-18",
-      "url": "https://vcnewsdaily.com/coreweave/venture-capital-funding"
-    },
-    {
-      "company": "Anysphere (Cursor)",
-      "amount": "$105M",
-      "round": "Series B",
-      "investors": "Thrive Capital, Y Combinator",
-      "vertical": "AI agents/SaaS",
-      "description": "AI-powered code editor",
-      "date": "2026-03-17",
-      "url": "https://vcnewsdaily.com/anysphere/venture-capital-funding"
-    },
-    {
-      "company": "Replit",
-      "amount": "$97M",
-      "round": "Series C",
-      "investors": "ICM Partners, Amplify Partners",
-      "vertical": "AI agents/SaaS",
-      "description": "Cloud-based IDE with AI assistance",
-      "date": "2026-03-16",
-      "url": "https://vcnewsdaily.com/replit/venture-capital-funding"
-    },
-    {
-      "company": "Adept AI",
-      "amount": "$415M",
-      "round": "Series B",
-      "investors": "General Catalyst, Spark Capital",
-      "vertical": "AI agents/SaaS",
-      "description": "AI productivity agent (Action Transformer)",
-      "date": "2026-03-15",
-      "url": "https://vcnewsdaily.com/adept-ai/venture-capital-funding"
-    },
-    {
-      "company": "Covariant",
-      "amount": "$225M",
-      "round": "Series E",
-      "investors": "T. Rowe Price",
-      "vertical": "Robotics",
-      "description": "AI-powered robotics for warehouses",
-      "date": "2026-03-14",
-      "url": "https://vcnewsdaily.com/covariant/venture-capital-funding"
-    },
-    {
-      "company": "Figure AI",
-      "amount": "$675M",
-      "round": "Series C",
-      "investors": "Jeff Bezos, OpenAI, Microsoft",
-      "vertical": "Robotics",
-      "description": "Humanoid robots for manufacturing",
-      "date": "2026-03-13",
-      "url": "https://vcnewsdaily.com/figure-ai/venture-capital-funding"
-    },
-    {
-      "company": "Harvey AI",
-      "amount": "$80M",
-      "round": "Series B",
-      "investors": "Sequoia, OpenAI Startup Fund",
-      "vertical": "AI agents/SaaS",
-      "description": "AI legal assistant for law firms",
-      "date": "2026-03-12",
-      "url": "https://vcnewsdaily.com/harvey-ai/venture-capital-funding"
-    },
-    {
-      "company": "Pika Labs",
-      "amount": "$55M",
-      "round": "Series A",
-      "investors": "Andreessen Horowitz, First Round",
-      "vertical": "AI agents/SaaS",
-      "description": "AI video generation platform",
-      "date": "2026-03-11",
-      "url": "https://vcnewsdaily.com/pika-labs/venture-capital-funding"
-    },
-    {
-      "company": "Runway",
-      "amount": "$141M",
-      "round": "Series C",
-      "investors": "NVIDIA, Google, Salesforce",
-      "vertical": "AI agents/SaaS",
-      "description": "AI video editing and generation",
-      "date": "2026-03-10",
-      "url": "https://vcnewsdaily.com/runway/venture-capital-funding"
-    },
-    {
-      "company": "Perplexity AI",
-      "amount": "$73.6M",
-      "round": "Series B",
-      "investors": "NVIDIA, Jeff Bezos, Breyer Capital",
-      "vertical": "AI agents/SaaS",
-      "description": "AI-powered search engine",
-      "date": "2026-03-09",
-      "url": "https://vcnewsdaily.com/perplexity-ai/venture-capital-funding"
-    },
-    {
-      "company": "Character.AI",
-      "amount": "$150M",
-      "round": "Series B",
-      "investors": "Andreessen Horowitz, Amplify Partners",
-      "vertical": "AI agents/SaaS",
-      "description": "AI chatbot platform",
-      "date": "2026-03-08",
-      "url": "https://vcnewsdaily.com/character-ai/venture-capital-funding"
-    },
-    {
-      "company": "Inflection AI",
-      "amount": "$1.3B",
-      "round": "Series B",
-      "investors": "Microsoft, NVIDIA, Bill Gates",
-      "vertical": "AI agents/SaaS",
-      "description": "Personal AI assistant (Pi)",
-      "date": "2026-03-07",
-      "url": "https://vcnewsdaily.com/inflection-ai/venture-capital-funding"
-    },
-    {
-      "company": "Mistral AI",
-      "amount": "$113M",
-      "round": "Seed",
-      "investors": "Andreessen Horowitz, Y Combinator",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Open-source AI models",
-      "date": "2026-03-06",
-      "url": "https://vcnewsdaily.com/mistral-ai/venture-capital-funding"
+      "url": "https://vcnewsdaily.com/earendil-labs/venture-capital-funding"
     }
   ],
-  "last_scraped": "2026-03-23T13:00:00Z"
+  "allDeals": [
+    {
+      "company": "Eddi",
+      "amount": "Undisclosed",
+      "round": "Minority Investment",
+      "date": "2026-03-20",
+      "industry": "AI/GovTech",
+      "url": "https://vcnewsdaily.com/eddi/venture-capital-funding/zssmzqqsvb"
+    },
+    {
+      "company": "Avtal",
+      "amount": "$24M",
+      "round": "Seed + Series A",
+      "date": "2026-03-20",
+      "industry": "FinTech/AI",
+      "url": "https://vcnewsdaily.com/avtal/venture-capital-funding/dpbkrrbwch"
+    },
+    {
+      "company": "Autoscience",
+      "amount": "$14M",
+      "round": "Seed",
+      "date": "2026-03-20",
+      "industry": "AI/ML Infrastructure",
+      "url": "https://vcnewsdaily.com/autoscience/venture-capital-funding/mzwqlnlpjx"
+    },
+    {
+      "company": "Earendil Labs",
+      "amount": "$787M",
+      "round": "Financing",
+      "date": "2026-03-20",
+      "industry": "Biotech/AI",
+      "url": "https://vcnewsdaily.com/earendil-labs/venture-capital-funding"
+    }
+  ]
 }
