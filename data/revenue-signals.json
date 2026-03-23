@@ -3,7 +3,7 @@
   "opportunities": [
     {
       "title": "Alberta Innovates AI/ML Services Roster",
-      "description": "Pre-qualified vendor roster for AI, machine learning and automation services. RFP MW0202 (AB‑2026‑00962) seeks up to 3 vendors for AI/ML solutions, generative AI, agent-based AI, business process automation, data engineering, and responsible AI enablement.",
+      "description": "Pre-qualified vendor roster for AI, machine learning and automation services. RFP MW0202 (AB-2026-00962) seeks up to 3 vendors for AI/ML solutions, generative AI, agent-based AI, business process automation, data engineering, and responsible AI enablement.",
       "value": "Project-based SOWs (roster qualification)",
       "date": "2026-03-12",
       "source": "Alberta Innovates",
@@ -22,7 +22,6 @@
       "status": "Warm",
       "sector": "HVAC/Tech",
       "decision_maker": "CTO - Calgary based",
-      "url": "internal://titan-technology-corp-bd-lead",
       "confidential": true
     },
     {
@@ -34,7 +33,6 @@
       "status": "Early Stage",
       "sector": "Energy/AI",
       "next_step": "Site visit scheduled Q2",
-      "url": "internal://natural-gas-compute-facility-proposal",
       "confidential": true
     }
   ]
