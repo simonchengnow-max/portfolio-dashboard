@@ -1,0 +1,27 @@
+{
+  "lastUpdated": "2026-03-23T00:00:00Z",
+  "source": "manual",
+  "companies": [
+    {
+      "id": "oh-001",
+      "name": "Portfolio Company",
+      "vertical": "GPU/AI",
+      "status": "healthy",
+      "metrics": {
+        "revenue": "TBD",
+        "growth": "TBD",
+        "burn": "TBD",
+        "runway": "TBD"
+      },
+      "alerts": [],
+      "lastCheckIn": "2026-03-23T00:00:00Z",
+      "notes": "Update with actual operational metrics"
+    }
+  ],
+  "metadata": {
+    "totalCompanies": 1,
+    "healthy": 1,
+    "watch": 0,
+    "critical": 0
+  }
+}
