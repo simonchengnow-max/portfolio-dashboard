@@ -30,10 +30,9 @@
       "value": "Market expanding 40% YoY",
       "date": "2026-03-17",
       "source": "Industry Report",
-      "status": "Tailwind",
+      "status": "Tracking",
       "sector": "Robotics",
-      "action": "Coordinate portfolio demo day",
-      "url": "internal://robotics-warehouse-automation-trend-report"
+      "action": "Coordinate portfolio demo day"
     }
   ]
 }
