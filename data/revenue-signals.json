@@ -2,15 +2,16 @@
   "last_updated": "2026-03-23T13:00:00Z",
   "opportunities": [
     {
-      "title": "Alberta Government AI Infrastructure RFP",
+      "title": "Alberta Government AI infrastructure RFP",
       "description": "Provincial government seeking vendors for GPU cloud infrastructure to support AI research initiatives across Alberta universities",
       "value": "Est. $2.5M CAD",
       "date": "2026-03-20",
-      "source": "SAM.gov",
+      "source": "Alberta Procurement",
       "status": "Active",
       "sector": "GPU/AI Infrastructure",
       "deadline": "2026-04-15",
-      "contact": "procurement@aer.alberta.ca"
+      "contact": "procurement@aer.alberta.ca",
+      "url": "https://alberta.ca/build-your-ai-data-centre-in-alberta"
     },
     {
       "title": "Titan Technology Corp - HVAC AI Partnership",
@@ -20,7 +21,8 @@
       "source": "Inbound Lead",
       "status": "Warm",
       "sector": "HVAC/Tech",
-      "decision_maker": "CTO - Calgary based"
+      "decision_maker": "CTO - Calgary based",
+      "url": "internal://titan-technology-corp-bd-lead"
     },
     {
       "title": "Natural Gas Producer - Compute Facility Proposal",
@@ -30,7 +32,8 @@
       "source": "Industry Event",
       "status": "Early Stage",
       "sector": "Energy/AI",
-      "next_step": "Site visit scheduled Q2"
+      "next_step": "Site visit scheduled Q2",
+      "url": "internal://natural-gas-compute-facility-proposal"
     }
   ]
 }
