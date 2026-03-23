@@ -1,38 +1,4 @@
 {
   "last_updated": "2026-03-23T13:00:00Z",
-  "intelligence": [
-    {
-      "title": "Rebar Capital Raises $14M for HVAC AI Platform",
-      "description": "Toronto-based Rebar secured Series A to expand AI-powered building management systems for commercial HVAC. Direct competitor to portfolio companies in trades tech vertical.",
-      "value": "$14M Series A",
-      "date": "2026-03-21",
-      "source": "Crunchbase News",
-      "status": "Competitive",
-      "sector": "HVAC/AI",
-      "investors": "Prudence, Zero Infinity Partners, Founder Collective",
-      "implication": "Validates HVAC AI market; potential partnership or acquisition target",
-      "url": "https://news.crunchbase.com/real-estate-property-tech/ai-generated-hvac-quotes-rebar-seriesa/"
-    },
-    {
-      "title": "Alberta GPU Cloud Demand Surge",
-      "description": "University of Alberta and NAIT announcing joint AI research initiative requiring 500+ H100 equivalent compute capacity. Potential anchor tenant for natural gas-powered data center.",
-      "value": "500+ GPU demand",
-      "date": "2026-03-19",
-      "source": "Alberta Government",
-      "status": "Opportunity",
-      "sector": "GPU/AI Infrastructure",
-      "timeline": "RFP expected Q3 2026",
-      "url": "https://alberta.ca/artificial-intelligence-data-centres-strategy"
-    },
-    {
-      "title": "Robotics Warehouse Automation Trend",
-      "description": "Canadian e-commerce fulfillment centers accelerating robotics adoption post-holiday season. 3 portfolio companies positioned for pilot deployments.",
-      "value": "Market expanding 40% YoY",
-      "date": "2026-03-17",
-      "source": "Industry Report",
-      "status": "Tracking",
-      "sector": "Robotics",
-      "action": "Coordinate portfolio demo day"
-    }
-  ]
+  "intelligence": []
 }
