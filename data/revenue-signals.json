@@ -2,16 +2,16 @@
   "last_updated": "2026-03-23T13:00:00Z",
   "opportunities": [
     {
-      "title": "Alberta Government AI infrastructure RFP",
-      "description": "Provincial government seeking vendors for GPU cloud infrastructure to support AI research initiatives across Alberta universities",
-      "value": "Est. $2.5M CAD",
-      "date": "2026-03-20",
-      "source": "Alberta Procurement",
-      "status": "Active",
-      "sector": "GPU/AI Infrastructure",
-      "deadline": "2026-04-15",
-      "contact": "procurement@aer.alberta.ca",
-      "url": "https://alberta.ca/build-your-ai-data-centre-in-alberta"
+      "title": "Alberta Innovates AI/ML Services Roster",
+      "description": "Pre-qualified vendor roster for AI, machine learning and automation services. RFP MW0202 (AB-2026-00962) seeks up to 3 vendors for AI/ML solutions, generative AI, agent-based AI, business process automation, data engineering, and responsible AI enablement.",
+      "value": "Project-based SOWs (roster qualification)",
+      "date": "2026-03-12",
+      "source": "Alberta Innovates",
+      "status": "Proposal Submitted",
+      "sector": "AI/Tech Services",
+      "deadline": "TBD (roster established)",
+      "contact": "Alberta Innovates Procurement",
+      "url": "https://www.thenewswire.com/press-releases/1LYzFOyEm-titan-technology-corp-responds-to-alberta-innovates-rfp-ai-machine-learning-and-automation-services.html"
     },
     {
       "title": "Titan Technology Corp - HVAC AI Partnership",
