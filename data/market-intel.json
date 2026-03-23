@@ -1,0 +1,24 @@
+{
+  "lastUpdated": "2026-03-23T00:00:00Z",
+  "source": "manual",
+  "intelligence": [
+    {
+      "id": "mi-001",
+      "title": "Market Signal Placeholder",
+      "vertical": "GPU/AI",
+      "category": "competitor_move",
+      "summary": "Update with actual market intelligence",
+      "impact": "medium",
+      "urgency": "normal",
+      "sourceUrl": "",
+      "notes": "Competitor activity, market trends, or strategic signals",
+      "createdAt": "2026-03-23T00:00:00Z"
+    }
+  ],
+  "metadata": {
+    "totalItems": 1,
+    "highImpact": 0,
+    "mediumImpact": 1,
+    "lowImpact": 0
+  }
+}
