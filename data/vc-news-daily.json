@@ -1,0 +1,384 @@
+{
+  "lastUpdated": "2026-03-23",
+  "totalDeals": 30,
+  "totalCapital": "$2.4B",
+  "hotOpportunities": [
+    {
+      "company": "Autoscience",
+      "amount": "$14M",
+      "round": "Seed",
+      "investors": "General Catalyst",
+      "vertical": "GPU/AI Infrastructure",
+      "description": "AI-powered ML research automation",
+      "date": "2026-03-20",
+      "url": "https://vcnewsdaily.com/autoscience/venture-capital-funding"
+    },
+    {
+      "company": "Eddi",
+      "amount": "Undisclosed",
+      "round": "Minority Investment",
+      "investors": "MGT",
+      "vertical": "AI agents/SaaS",
+      "description": "AI platform for government/education financial sustainability",
+      "date": "2026-03-20",
+      "url": "https://vcnewsdaily.com/eddi/venture-capital-funding"
+    },
+    {
+      "company": "Avtal",
+      "amount": "$24M",
+      "round": "Seed + Series A",
+      "investors": "S3 Ventures",
+      "vertical": "AI agents/SaaS",
+      "description": "Digital engagement platform for debt collection using AI",
+      "date": "2026-03-20",
+      "url": "https://vcnewsdaily.com/avtal/venture-capital-funding"
+    },
+    {
+      "company": "WideField Security",
+      "amount": "Undisclosed",
+      "round": "Series A",
+      "investors": "Cisco Investments",
+      "vertical": "AI agents/SaaS",
+      "description": "Identity security platform for AI agents",
+      "date": "2026-03-19",
+      "url": "https://vcnewsdaily.com/widefield-security/venture-capital-funding"
+    },
+    {
+      "company": "Knox Systems",
+      "amount": "$25M",
+      "round": "Series A",
+      "investors": "B Capital, M12 (Microsoft)",
+      "vertical": "GPU/AI Infrastructure",
+      "description": "Federal AI cloud provider",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/knox-systems/venture-capital-funding"
+    },
+    {
+      "company": "Manifold Security",
+      "amount": "$8M",
+      "round": "Seed",
+      "investors": "Costanoa Ventures",
+      "vertical": "AI agents/SaaS",
+      "description": "AI Detection and Response (AIDR) platform",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/manifold-security/venture-capital-funding"
+    },
+    {
+      "company": "Multiply",
+      "amount": "$9.5M",
+      "round": "Series A",
+      "investors": "Mayfield",
+      "vertical": "AI agents/SaaS",
+      "description": "AI-native B2B media agency",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/multiply/venture-capital-funding"
+    },
+    {
+      "company": "Respan",
+      "amount": "$5M",
+      "round": "Seed",
+      "investors": "Undisclosed",
+      "vertical": "AI agents/SaaS",
+      "description": "Proactive AI observability platform",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/respan/venture-capital-funding"
+    },
+    {
+      "company": "Obin AI",
+      "amount": "$7M",
+      "round": "Seed",
+      "investors": "Motive Partners",
+      "vertical": "AI agents/SaaS",
+      "description": "Agentic workforce platform for finance",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/obin-ai/venture-capital-funding"
+    },
+    {
+      "company": "RAAPID",
+      "amount": "Undisclosed",
+      "round": "Series A",
+      "investors": "M12 (Microsoft)",
+      "vertical": "AI agents/SaaS",
+      "description": "AI-powered healthcare risk adjustment platform",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/raapid/venture-capital-funding"
+    }
+  ],
+  "warmSignals": [
+    {
+      "company": "Earendil Labs",
+      "amount": "$787M",
+      "round": "Financing",
+      "investors": "Dimension, DST Global, Sanofi",
+      "vertical": "Biotech/AI",
+      "description": "AI-driven biotech company",
+      "date": "2026-03-20",
+      "url": "https://vcnewsdaily.com/earendil-labs/venture-capital-funding"
+    },
+    {
+      "company": "Cloaked",
+      "amount": "$375M",
+      "round": "Series B",
+      "investors": "General Catalyst",
+      "vertical": "Consumer Privacy",
+      "description": "Consumer privacy platform with 350K+ users",
+      "date": "2026-03-19",
+      "url": "https://vcnewsdaily.com/cloaked/venture-capital-funding"
+    },
+    {
+      "company": "Verily",
+      "amount": "$300M",
+      "round": "Financing",
+      "investors": "Series X Capital, Alphabet",
+      "vertical": "Healthcare AI",
+      "description": "Precision health AI platform",
+      "date": "2026-03-19",
+      "url": "https://vcnewsdaily.com/verily/venture-capital-funding"
+    },
+    {
+      "company": "XBOW",
+      "amount": "$120M",
+      "round": "Series C",
+      "investors": "Undisclosed",
+      "vertical": "Cybersecurity/AI",
+      "description": "Autonomous offensive security platform",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/xbow/venture-capital-funding"
+    },
+    {
+      "company": "Cape",
+      "amount": "$100M",
+      "round": "Series C",
+      "investors": "Bain Capital, IVP, Andreessen Horowitz",
+      "vertical": "Telecom/Privacy",
+      "description": "Privacy-first mobile carrier",
+      "date": "2026-03-19",
+      "url": "https://vcnewsdaily.com/cape/venture-capital-funding"
+    },
+    {
+      "company": "Eclypsium",
+      "amount": "$25M",
+      "round": "Strategic",
+      "investors": "PEAK6, Andreessen Horowitz",
+      "vertical": "Supply Chain Security",
+      "description": "IT supply chain security platform",
+      "date": "2026-03-19",
+      "url": "https://vcnewsdaily.com/eclypsium/venture-capital-funding"
+    },
+    {
+      "company": "Raven (RAVEN.IO)",
+      "amount": "$20M",
+      "round": "Seed",
+      "investors": "Norwest Venture Partners",
+      "vertical": "Application Security",
+      "description": "Runtime application security platform",
+      "date": "2026-03-18",
+      "url": "https://vcnewsdaily.com/raven/venture-capital-funding"
+    }
+  ],
+  "allDeals": [
+    {
+      "company": "Eddi",
+      "amount": "Undisclosed",
+      "round": "Minority Investment",
+      "date": "2026-03-20",
+      "industry": "AI/GovTech"
+    },
+    {
+      "company": "Avtal",
+      "amount": "$24M",
+      "round": "Seed + Series A",
+      "date": "2026-03-20",
+      "industry": "FinTech/AI"
+    },
+    {
+      "company": "Autoscience",
+      "amount": "$14M",
+      "round": "Seed",
+      "date": "2026-03-20",
+      "industry": "AI/ML Infrastructure"
+    },
+    {
+      "company": "Earendil Labs",
+      "amount": "$787M",
+      "round": "Financing",
+      "date": "2026-03-20",
+      "industry": "Biotech/AI"
+    },
+    {
+      "company": "Cape",
+      "amount": "$100M",
+      "round": "Series C",
+      "date": "2026-03-19",
+      "industry": "Telecom/Privacy"
+    },
+    {
+      "company": "WideField Security",
+      "amount": "Undisclosed",
+      "round": "Series A",
+      "date": "2026-03-19",
+      "industry": "Cybersecurity/AI"
+    },
+    {
+      "company": "Eclypsium",
+      "amount": "$25M",
+      "round": "Strategic",
+      "date": "2026-03-19",
+      "industry": "Cybersecurity"
+    },
+    {
+      "company": "GeoWealth",
+      "amount": "$42.5M",
+      "round": "Series C Extension",
+      "date": "2026-03-19",
+      "industry": "FinTech/Wealth Management"
+    },
+    {
+      "company": "Cloaked",
+      "amount": "$375M",
+      "round": "Series B",
+      "date": "2026-03-19",
+      "industry": "Consumer Privacy"
+    },
+    {
+      "company": "Verily",
+      "amount": "$300M",
+      "round": "Financing",
+      "date": "2026-03-19",
+      "industry": "Healthcare/AI"
+    },
+    {
+      "company": "Raven (RAVEN.IO)",
+      "amount": "$20M",
+      "round": "Seed",
+      "date": "2026-03-18",
+      "industry": "Cybersecurity"
+    },
+    {
+      "company": "Rubi",
+      "amount": "$7.5M",
+      "round": "Series A",
+      "date": "2026-03-18",
+      "industry": "Climate Tech"
+    },
+    {
+      "company": "Knox Systems",
+      "amount": "$25M",
+      "round": "Series A",
+      "date": "2026-03-18",
+      "industry": "AI/Cloud Infrastructure"
+    },
+    {
+      "company": "Imperative Care",
+      "amount": "$100M",
+      "round": "Convertible Note",
+      "date": "2026-03-18",
+      "industry": "MedTech"
+    },
+    {
+      "company": "Manifold Security",
+      "amount": "$8M",
+      "round": "Seed",
+      "date": "2026-03-18",
+      "industry": "Cybersecurity/AI"
+    },
+    {
+      "company": "Multiply",
+      "amount": "$9.5M",
+      "round": "Series A",
+      "date": "2026-03-18",
+      "industry": "Marketing/AI"
+    },
+    {
+      "company": "Respan",
+      "amount": "$5M",
+      "round": "Seed",
+      "date": "2026-03-18",
+      "industry": "AI/Observability"
+    },
+    {
+      "company": "XBOW",
+      "amount": "$120M",
+      "round": "Series C",
+      "date": "2026-03-18",
+      "industry": "Cybersecurity"
+    },
+    {
+      "company": "Obin AI",
+      "amount": "$7M",
+      "round": "Seed",
+      "date": "2026-03-18",
+      "industry": "FinTech/AI"
+    },
+    {
+      "company": "BusRight",
+      "amount": "$30M+",
+      "round": "Series B",
+      "date": "2026-03-18",
+      "industry": "Transportation Tech"
+    },
+    {
+      "company": "RAAPID",
+      "amount": "Undisclosed",
+      "round": "Series A",
+      "date": "2026-03-18",
+      "industry": "Healthcare/AI"
+    },
+    {
+      "company": "Crossbow Therapeutics",
+      "amount": "$77M",
+      "round": "Series B",
+      "date": "2026-03-18",
+      "industry": "Biotech"
+    },
+    {
+      "company": "Mave Health",
+      "amount": "$2.1M",
+      "round": "Seed",
+      "date": "2026-03-18",
+      "industry": "Neurotech"
+    },
+    {
+      "company": "Condor Software",
+      "amount": "$24M",
+      "round": "Series A",
+      "date": "2026-03-18",
+      "industry": "FinTech/Life Sciences"
+    },
+    {
+      "company": "VST BIO",
+      "amount": "Undisclosed",
+      "round": "Series A",
+      "date": "2026-03-17",
+      "industry": "Biotech"
+    },
+    {
+      "company": "Turquoise Health",
+      "amount": "$40M",
+      "round": "Series C",
+      "date": "2026-03-17",
+      "industry": "Healthcare"
+    },
+    {
+      "company": "Conduit Health",
+      "amount": "$17M",
+      "round": "Series A",
+      "date": "2026-03-17",
+      "industry": "Healthcare"
+    },
+    {
+      "company": "Candex",
+      "amount": "$40M+",
+      "round": "Series C Extension",
+      "date": "2026-03-17",
+      "industry": "Enterprise Software"
+    },
+    {
+      "company": "Standard Template Labs",
+      "amount": "$49M",
+      "round": "Seed",
+      "date": "2026-03-17",
+      "industry": "AI/Developer Tools"
+    }
+  ]
+}
