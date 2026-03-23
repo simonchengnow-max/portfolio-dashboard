@@ -1,27 +1,53 @@
 {
-  "lastUpdated": "2026-03-23T00:00:00Z",
-  "source": "manual",
-  "companies": [
+  "last_updated": "2026-03-23T13:00:00Z",
+  "metrics": [
     {
-      "id": "oh-001",
-      "name": "Portfolio Company",
-      "vertical": "GPU/AI",
-      "status": "healthy",
-      "metrics": {
-        "revenue": "TBD",
-        "growth": "TBD",
-        "burn": "TBD",
-        "runway": "TBD"
-      },
-      "alerts": [],
-      "lastCheckIn": "2026-03-23T00:00:00Z",
-      "notes": "Update with actual operational metrics"
+      "title": "Portfolio Company #1 - AI Agents",
+      "description": "Enterprise SaaS automation platform. Strong growth but burning cash ahead of Series B.",
+      "value": "MRR: $145K (+22% MoM)",
+      "date": "2026-03-23",
+      "source": "Monthly Metrics",
+      "status": "On Track",
+      "sector": "AI Agents/SaaS",
+      "runway": "14 months",
+      "headcount": "12 FTE",
+      "burn_rate": "$85K/mo"
+    },
+    {
+      "title": "Portfolio Company #2 - HVAC AI",
+      "description": "Predictive maintenance for commercial buildings. Pilot conversions slower than expected.",
+      "value": "ARR: $380K (flat QoQ)",
+      "date": "2026-03-23",
+      "source": "Monthly Metrics",
+      "status": "Needs Attention",
+      "sector": "HVAC/Tech",
+      "runway": "18 months",
+      "headcount": "8 FTE",
+      "pipeline": "$1.2M qualified"
+    },
+    {
+      "title": "Portfolio Company #3 - GPU Cloud",
+      "description": "Natural gas-powered inference facility. Permitting on track, anchor tenant LOI signed.",
+      "value": "Pre-revenue (launch Q3)",
+      "date": "2026-03-23",
+      "source": "Monthly Metrics",
+      "status": "On Track",
+      "sector": "GPU/AI Infrastructure",
+      "capex": "$3.5M raised",
+      "target_capacity": "200 H100s",
+      "utilization_loi": "60% committed"
+    },
+    {
+      "title": "Portfolio Company #4 - Robotics",
+      "description": "Warehouse automation robotics. Strong pilot results, preparing for commercial rollout.",
+      "value": "Revenue: $95K Q1 2026",
+      "date": "2026-03-23",
+      "source": "Monthly Metrics",
+      "status": "Green",
+      "sector": "Robotics",
+      "runway": "24 months",
+      "headcount": "15 FTE",
+      "pilots": "4 active deployments"
     }
-  ],
-  "metadata": {
-    "totalCompanies": 1,
-    "healthy": 1,
-    "watch": 0,
-    "critical": 0
-  }
+  ]
 }
