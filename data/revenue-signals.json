@@ -1,4 +1,50 @@
 {
   "last_updated": "2026-03-23T13:00:00Z",
-  "opportunities": []
+  "opportunities": [
+    {
+      "title": "Radiant Ridge Energy - 40MW Northern Alberta",
+      "value": "40MW / ~10,000 GJ/day",
+      "date": "2026-01-09",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/01/09/3215910/0/en/Radiant-Ridge-Energy-Announces-Strategic-Partnership-for-40MW-Northern-Alberta-Natural-Gas-Power-Development.html",
+      "sector": "Energy/AI Infrastructure",
+      "status": "LOI Signed"
+    },
+    {
+      "title": "TransAlta + Brookfield + CPP Investments - Keephills Data Centre",
+      "value": "230MW initial, scalable to 1GW",
+      "date": "2026-02-27",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/02/27/3246443/0/en/TransAlta-Enters-Memorandum-of-Understanding-for-Data-Centre-Development-at-Keephills-Site-with-Potential-to-Scale-Up-to-1-GW.html",
+      "sector": "Energy/AI Infrastructure",
+      "status": "MOU Signed"
+    },
+    {
+      "title": "Capital Power - Genesee Energy Campus",
+      "value": "1.5GW available by 2026",
+      "date": "2025-11-27",
+      "source": "Capital Power",
+      "url": "https://www.capitalpower.com/solutions/data-centres/",
+      "sector": "Energy/AI Infrastructure",
+      "status": "Power Available"
+    },
+    {
+      "title": "Axiom Oil & Gas - Barrhead County Modular Plant",
+      "value": "6MW modular gas plant + data center",
+      "date": "2026-02-03",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/barrhead-county-in-alberta-proposes-land-use-change-to-facilitate-natural-gas-powered-data-centers-report/",
+      "sector": "Energy/AI Infrastructure",
+      "status": "Land Use Amendment"
+    },
+    {
+      "title": "AetherCore Energy - Northwest Alberta",
+      "value": "200kW-5MW modular gas-to-compute",
+      "date": "2026",
+      "source": "AetherCore Technologies",
+      "url": "https://aethercoretechnologies.com/",
+      "sector": "Energy/AI Infrastructure",
+      "status": "Private Access"
+    }
+  ]
 }
