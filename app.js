@@ -22,7 +22,7 @@ function loadAllSections() {
   loadCapitalMarkets();
   loadOperationalHealth();
   loadVCNewsDaily();
-  
+
   // Update timestamp
   const now = new Date();
   document.getElementById('update-timestamp').textContent = now.toLocaleString('en-US', {
@@ -93,15 +93,15 @@ async function loadVCNewsDaily() {
     const data = await response.json();
 
     // Update stats
-    const totalDeals = (data.hot_deals?.length || 0) + (data.warm_deals?.length || 0);
+    const totalDeals = (data.hotOpportunities?.length || 0) + (data.warmSignals?.length || 0);
     const totalCapital = data.totalCapital || '$0';
-    
+
     document.getElementById('vc-total-deals').textContent = totalDeals;
     document.getElementById('vc-total-capital').textContent = totalCapital;
     document.getElementById('vc-last-updated').textContent = data.lastUpdated || 'Unknown';
 
     // Render the VC deals table
-    renderVCTable(data.hot_deals || []);
+    renderVCTable(data.hotOpportunities || []);
   } catch (error) {
     console.error('Error loading VC News Daily:', error);
     document.getElementById('vc-news-content').innerHTML =
@@ -112,35 +112,31 @@ async function loadVCNewsDaily() {
 // Render VC News Daily Summary Table
 function renderVCTable(deals) {
   const container = document.getElementById('vc-news-content');
-  
+
   if (!deals || deals.length === 0) {
-    container.innerHTML = '<div class="no-data">No VC deals available</div>';
+    container.innerHTML = '<p class="empty-state">No VC deals available</p>';
     return;
   }
 
   const tableHTML = `
-    <div class="vc-table-container">
-      <table class="vc-deals-table">
-        <thead>
+    <table class="vc-table">
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>What They Do</th>
+          <th>Amount Raised</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${deals.map(deal => `
           <tr>
-            <th>Company Name</th>
-            <th>What They Do</th>
-            <th>Amount Raised</th>
+            <td><a href="${deal.url || '#'}" target="_blank" rel="noopener">${escapeHtml(deal.company)}</a></td>
+            <td>${escapeHtml(deal.description)}</td>
+            <td>${escapeHtml(deal.amount)}</td>
           </tr>
-        </thead>
-        <tbody>
-          ${deals.map(deal => `
-            <tr>
-              <td class="company-name">
-                <a href="${deal.url || '#'}" target="_blank" rel="noopener noreferrer">${escapeHtml(deal.company)}</a>
-              </td>
-              <td class="company-description">${escapeHtml(deal.description)}</td>
-              <td class="company-amount">${escapeHtml(deal.amount)}</td>
-            </tr>
-          `).join('')}
-        </tbody>
-      </table>
-    </div>
+        `).join('')}
+      </tbody>
+    </table>
   `;
 
   container.innerHTML = tableHTML;
@@ -150,51 +146,45 @@ function renderVCTable(deals) {
 function renderSection(elementId, data, type) {
   const container = document.getElementById(elementId);
   if (!data || data.length === 0) {
-    container.innerHTML = '<div class="no-data">No data available</div>';
+    container.innerHTML = '<p class="empty-state">No data available</p>';
     return;
   }
 
   switch(type) {
     case 'revenue':
       container.innerHTML = data.map(item => `
-        <div class="card-item" onclick="openModal('${escapeHtml(item.title)}', '${escapeHtml(item.description)}', '${escapeHtml(item.value || '')}', '${escapeHtml(item.status || '')}', '${escapeHtml(item.sector || '')}')">
-          <div class="card-header">
-            <h3>${escapeHtml(item.title)}</h3>
-            <span class="status-badge ${getStatusClass(item.status)}">${escapeHtml(item.status || 'Unknown')}</span>
-          </div>
-          <p class="card-description">${escapeHtml(item.description)}</p>
-          <div class="card-meta">
+        <div class="card">
+          <h3>${escapeHtml(item.title)}</h3>
+          <span class="status-badge ${getStatusClass(item.status)}">${escapeHtml(item.status || 'Unknown')}</span>
+          <p>${escapeHtml(item.description)}</p>
+          <div class="card-footer">
             <span class="value">${escapeHtml(item.value || 'N/A')}</span>
-            <span class="date">${formatDate(item.date)}</span>
+            ${formatDate(item.date)}
           </div>
         </div>
       `).join('');
       break;
     case 'market':
       container.innerHTML = data.map(item => `
-        <div class="card-item" onclick="openModal('${escapeHtml(item.title)}', '${escapeHtml(item.description)}', '${escapeHtml(item.source || '')}', '${escapeHtml(item.trend || '')}', '${escapeHtml(item.sector || '')}')">
-          <div class="card-header">
-            <h3>${escapeHtml(item.title)}</h3>
-            <span class="trend-badge ${getTrendClass(item.trend)}">${escapeHtml(item.trend || 'Neutral')}</span>
-          </div>
-          <p class="card-description">${escapeHtml(item.description)}</p>
-          <div class="card-meta">
+        <div class="card">
+          <h3>${escapeHtml(item.title)}</h3>
+          <span class="trend-badge ${getTrendClass(item.trend)}">${escapeHtml(item.trend || 'Neutral')}</span>
+          <p>${escapeHtml(item.description)}</p>
+          <div class="card-footer">
             <span class="source">${escapeHtml(item.source)}</span>
-            <span class="date">${formatDate(item.date)}</span>
+            ${formatDate(item.date)}
           </div>
         </div>
       `).join('');
       break;
     case 'capital':
       container.innerHTML = data.map(item => `
-        <div class="card-item" onclick="openModal('${escapeHtml(item.company)}', '${escapeHtml(item.description)}', '${escapeHtml(item.amount || '')}', '${escapeHtml(item.round || '')}', '${escapeHtml(item.investors || '')}')">
-          <div class="card-header">
-            <h3>${escapeHtml(item.company)}</h3>
-            <span class="round-badge">${escapeHtml(item.round || 'Unknown')}</span>
-          </div>
-          <p class="card-description">${escapeHtml(item.description)}</p>
-          <div class="card-meta">
-            <span class="amount">${escapeHtml(item.amount || 'Undisclosed')}</span>
+        <div class="card">
+          <h3>${escapeHtml(item.company)}</h3>
+          <span class="status-badge">${escapeHtml(item.round || 'Unknown')}</span>
+          <p>${escapeHtml(item.description)}</p>
+          <div class="card-footer">
+            <span class="value">${escapeHtml(item.amount || 'Undisclosed')}</span>
             <span class="investors">${escapeHtml(item.investors || 'Unknown')}</span>
           </div>
         </div>
@@ -202,15 +192,13 @@ function renderSection(elementId, data, type) {
       break;
     case 'operational':
       container.innerHTML = data.map(item => `
-        <div class="metric-card ${getHealthClass(item.health)}">
-          <div class="metric-header">
-            <h3>${escapeHtml(item.name)}</h3>
-            <span class="health-indicator ${getHealthClass(item.health)}">${escapeHtml(item.health || 'Unknown')}</span>
-          </div>
-          <p class="metric-description">${escapeHtml(item.description)}</p>
-          <div class="metric-stats">
-            <span class="stat-value">${escapeHtml(item.value || 'N/A')}</span>
-            <span class="stat-trend ${getTrendClass(item.trend)}">${escapeHtml(item.trend || '')}</span>
+        <div class="card">
+          <h3>${escapeHtml(item.name)}</h3>
+          <span class="health-badge ${getHealthClass(item.health)}">${escapeHtml(item.health || 'Unknown')}</span>
+          <p>${escapeHtml(item.description)}</p>
+          <div class="card-footer">
+            <span class="value">${escapeHtml(item.value || 'N/A')}</span>
+            <span class="trend">${escapeHtml(item.trend || '')}</span>
           </div>
         </div>
       `).join('');
