@@ -1,44 +1,4 @@
 {
   "last_updated": "2026-03-23T13:00:00Z",
-  "deals": [
-    {
-      "title": "Series B Round - AI Agent Startup",
-      "description": "Portfolio company closing $8M Series B led by Tier 1 VC. Strong traction in enterprise automation vertical with 3 Fortune 500 pilots.",
-      "value": "$8M Series B",
-      "date": "2026-03-22",
-      "source": "Internal",
-      "status": "In Progress",
-      "sector": "AI Agents/SaaS",
-      "lead_investor": "Tier 1 VC (TBD)",
-      "expected_close": "Q2 2026",
-      "internal": true,
-      "internal_note": "Confidential deal flow - portfolio company fundraising"
-    },
-    {
-      "title": "Strategic Acquisition - Robotics Co",
-      "description": "US-based industrial automation company expressing interest in acquiring portfolio robotics company. Preliminary valuation 3x revenue.",
-      "value": "Undisclosed (est. $15M)",
-      "date": "2026-03-18",
-      "source": "Investment Banker",
-      "status": "Early Discussions",
-      "sector": "Robotics",
-      "acquirer": "US Industrial Automation Co",
-      "advisor": "Boutique IB firm",
-      "internal": true,
-      "internal_note": "Confidential M&A discussions - NDA in place"
-    },
-    {
-      "title": "Convertible Note - GPU Infrastructure",
-      "description": "Bridge financing for natural gas-powered GPU facility. Terms: 8% interest, 20% discount, $5M cap.",
-      "value": "$2M Convertible",
-      "date": "2026-03-15",
-      "source": "Family Office",
-      "status": "Term Sheet Signed",
-      "sector": "GPU/AI Infrastructure",
-      "investor": "Alberta Family Office",
-      "use_of_funds": "Site preparation, permitting",
-      "internal": true,
-      "internal_note": "Bridge financing for portfolio company capex"
-    }
-  ]
+  "deals": []
 }
