@@ -1,203 +1,177 @@
 {
-  "lastUpdated": "2026-03-24",
-  "totalDeals": 9,
-  "totalCapital": "$1.3B+ (verified deals only)",
-  "hotOpportunities": [
+  "last_updated": "2026-03-25",
+  "hot_deals": [
     {
-      "company": "Rhoda AI",
-      "amount": "$450M",
+      "company": "Highlight AI",
+      "amount": "$40M",
       "round": "Series A",
-      "investors": "Khosla, Capricorn, Mayfield, Temasek, John Doerr",
-      "vertical": "Robotics",
-      "description": "Building a robot foundation model using video-predictive control for real-world industrial deployment in manufacturing and logistics",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/rhoda-ai/venture-capital-funding/fvstxpnpbf"
-    },
-    {
-      "company": "Nexthop AI",
-      "amount": "$500M",
-      "round": "Series B",
-      "investors": "Lightspeed, a16z",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Building highly efficient AI networking products for hyperscalers and neoclouds",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/nexthop-ai/venture-capital-funding/ywdvqtgkyn"
-    },
-    {
-      "company": "Eridu",
-      "amount": "$200M+",
-      "round": "Series A",
-      "investors": "John Doerr, Hudson River Trading, Bosch Ventures, MediaTek, TDK Ventures",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Disrupting the $200B AI networking market with a ground-up solution for AI data centers serving hyperscalers, neoclouds, and sovereign clouds",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/eridu/venture-capital-funding/plncjngfkn"
-    },
-    {
-      "company": "Standard Kernel",
-      "amount": "$20M",
-      "round": "Seed",
-      "investors": "Jump Capital, CoreWeave, Jeff Dean, General Catalyst",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Building AI systems that auto-generate ultra-optimized GPU software",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/standard-kernel/venture-capital-funding/mccwxpydrf"
-    },
-    {
-      "company": "Swarm Aero",
-      "amount": "$35M",
-      "round": "Series A",
-      "investors": "Two Sigma Ventures, Founders Fund, Khosla, Coatue",
-      "vertical": "Robotics",
-      "description": "Developing large UAV swarms with swarm-control software, opening 80,000 sq ft Advanced Manufacturing Center",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/swarm-aero/venture-capital-funding/ncyynhddxv"
-    },
-    {
-      "company": "Zymtrace",
-      "amount": "$12.2M",
-      "round": "Seed",
-      "investors": "Thomas Wolf (Hugging Face), Christian Bach (Netlify)",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Helping enterprises uncover hidden performance bottlenecks inside GPU clusters via distributed AI infrastructure optimization",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/zymtrace/venture-capital-funding/swdgzhpnxz"
-    },
-    {
-      "company": "Xscape Photonics",
-      "amount": "$37M",
-      "round": "Series A",
-      "investors": "NVIDIA, Addition",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Developing photonic semiconductor solutions for next-generation AI data center interconnects",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/xscape-photonics/venture-capital-funding/snsqwnhsyy"
-    },
-    {
-      "company": "Arycs Technologies",
-      "amount": "$24M",
-      "round": "Spin-out",
-      "investors": "Undisclosed",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Delivering power-efficient coherent optical connectivity for distributed AI infrastructure",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/arycs/venture-capital-funding/yqkmjkcbxg"
-    },
-    {
-      "company": "Translucent",
-      "amount": "$27M",
-      "round": "Series A",
-      "investors": "GV",
+      "investors": "",
       "vertical": "AI agents/SaaS",
-      "description": "AI platform providing real-time financial visibility for healthcare finance teams",
+      "description": "Intelligent operating system for teams and AI agents",
       "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/translucent/venture-capital-funding/vgkvtcmcxb"
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Doctronic",
+      "amount": "$40M",
+      "round": "Series B",
+      "investors": "",
+      "vertical": "AI agents/SaaS",
+      "description": "AI system legally authorized to practice medicine",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Novaworks.ai",
+      "amount": "$8M",
+      "round": "Seed",
+      "investors": "",
+      "vertical": "AI agents/SaaS",
+      "description": "AI-native HCM operating system",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Latent Health",
+      "amount": "$80M",
+      "round": "Series A",
+      "investors": "",
+      "vertical": "AI agents/SaaS",
+      "description": "Clinical-AI company",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Dimer Health",
+      "amount": "$13.5M",
+      "round": "Series A",
+      "investors": "",
+      "vertical": "AI agents/SaaS",
+      "description": "AI-native Transitional Care Medicine",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Autoscience",
+      "amount": "$14M",
+      "round": "Seed",
+      "investors": "",
+      "vertical": "GPU/AI Infrastructure",
+      "description": "Automate R&D of ML models",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Earendil Labs",
+      "amount": "$787M",
+      "round": "Undisclosed",
+      "investors": "",
+      "vertical": "GPU/AI Infrastructure",
+      "description": "AI-driven biotechnology",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Knox Systems",
+      "amount": "$25M",
+      "round": "Series A",
+      "investors": "",
+      "vertical": "GPU/AI Infrastructure",
+      "description": "Federal AI-managed cloud provider",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
     }
   ],
-  "warmSignals": [
+  "warm_deals": [
     {
-      "company": "Nexthop AI",
-      "amount": "$500M",
+      "company": "Convene Hospitality Group",
+      "amount": "$230M",
+      "round": "Strategic growth capital",
+      "investors": "",
+      "vertical": "Other",
+      "description": "Strategic growth capital for hospitality",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Halter",
+      "amount": "$220M",
+      "round": "Series E",
+      "investors": "",
+      "vertical": "Other",
+      "description": "Agtech at $2B valuation",
+      "date": "2026-03-24",
+      "url": "https://vcnewsdaily.com"
+    },
+    {
+      "company": "Oasis Security",
+      "amount": "$120M",
       "round": "Series B",
-      "investors": "Lightspeed, a16z",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Building highly efficient AI networking products for hyperscalers and neoclouds at $4.2B valuation",
+      "investors": "Craft Ventures",
+      "vertical": "Other",
+      "description": "Cybersecurity",
       "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/nexthop-ai/venture-capital-funding/ywdvqtgkyn"
+      "url": "https://vcnewsdaily.com"
     },
     {
-      "company": "Rhoda AI",
-      "amount": "$450M",
-      "round": "Series A",
-      "investors": "Khosla, Capricorn, Mayfield, Temasek, John Doerr",
-      "vertical": "Robotics",
-      "description": "Building a robot foundation model using video-predictive control for industrial deployment",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/rhoda-ai/venture-capital-funding/fvstxpnpbf"
-    },
-    {
-      "company": "Eridu",
-      "amount": "$200M+",
-      "round": "Series A",
-      "investors": "John Doerr, Hudson River Trading, Bosch Ventures, MediaTek, TDK Ventures",
-      "vertical": "GPU/AI Infrastructure",
-      "description": "Disrupting the $200B AI networking market with solution for AI data centers",
-      "date": "2026-03-24",
-      "url": "https://vcnewsdaily.com/eridu/venture-capital-funding/plncjngfkn"
-    }
-  ],
-  "allDeals": [
-    {
-      "company": "Rhoda AI",
-      "amount": "$450M",
-      "round": "Series A",
-      "date": "2026-03-24",
-      "industry": "Robotics/AI",
-      "url": "https://vcnewsdaily.com/rhoda-ai/venture-capital-funding/fvstxpnpbf"
-    },
-    {
-      "company": "Nexthop AI",
-      "amount": "$500M",
+      "company": "Bluesky",
+      "amount": "$100M",
       "round": "Series B",
+      "investors": "Bain Capital Crypto",
+      "vertical": "Other",
+      "description": "Social platform",
       "date": "2026-03-24",
-      "industry": "GPU/AI Infrastructure",
-      "url": "https://vcnewsdaily.com/nexthop-ai/venture-capital-funding/ywdvqtgkyn"
+      "url": "https://vcnewsdaily.com"
     },
     {
-      "company": "Eridu",
-      "amount": "$200M+",
-      "round": "Series A",
+      "company": "Cape",
+      "amount": "$100M",
+      "round": "Series C",
+      "investors": "",
+      "vertical": "Other",
+      "description": "Privacy mobile carrier",
       "date": "2026-03-24",
-      "industry": "GPU/AI Infrastructure",
-      "url": "https://vcnewsdaily.com/eridu/venture-capital-funding/plncjngfkn"
+      "url": "https://vcnewsdaily.com"
     },
     {
-      "company": "Standard Kernel",
-      "amount": "$20M",
-      "round": "Seed",
+      "company": "Imperative Care",
+      "amount": "$100M",
+      "round": "Convertible note",
+      "investors": "",
+      "vertical": "Other",
+      "description": "Financial services",
       "date": "2026-03-24",
-      "industry": "GPU/AI Infrastructure",
-      "url": "https://vcnewsdaily.com/standard-kernel/venture-capital-funding/mccwxpydrf"
+      "url": "https://vcnewsdaily.com"
     },
     {
-      "company": "Swarm Aero",
-      "amount": "$35M",
-      "round": "Series A",
+      "company": "Cloaked",
+      "amount": "$375M",
+      "round": "Series B",
+      "investors": "",
+      "vertical": "Other",
+      "description": "Consumer privacy",
       "date": "2026-03-24",
-      "industry": "Robotics/UAV",
-      "url": "https://vcnewsdaily.com/swarm-aero/venture-capital-funding/ncyynhddxv"
+      "url": "https://vcnewsdaily.com"
     },
     {
-      "company": "Zymtrace",
-      "amount": "$12.2M",
-      "round": "Seed",
+      "company": "Verily",
+      "amount": "$300M",
+      "round": "Undisclosed",
+      "investors": "",
+      "vertical": "Other",
+      "description": "Health/tech",
       "date": "2026-03-24",
-      "industry": "GPU/AI Infrastructure",
-      "url": "https://vcnewsdaily.com/zymtrace/venture-capital-funding/swdgzhpnxz"
+      "url": "https://vcnewsdaily.com"
     },
     {
-      "company": "Xscape Photonics",
-      "amount": "$37M",
-      "round": "Series A",
+      "company": "GeoWealth",
+      "amount": "$42.5M",
+      "round": "Series C extension",
+      "investors": "Goldman Sachs",
+      "vertical": "Other",
+      "description": "Wealth management technology",
       "date": "2026-03-24",
-      "industry": "GPU/AI Infrastructure/Photonics",
-      "url": "https://vcnewsdaily.com/xscape-photonics/venture-capital-funding/snsqwnhsyy"
-    },
-    {
-      "company": "Arycs Technologies",
-      "amount": "$24M",
-      "round": "Spin-out",
-      "date": "2026-03-24",
-      "industry": "GPU/AI Infrastructure/Optical",
-      "url": "https://vcnewsdaily.com/arycs/venture-capital-funding/yqkmjkcbxg"
-    },
-    {
-      "company": "Translucent",
-      "amount": "$27M",
-      "round": "Series A",
-      "date": "2026-03-24",
-      "industry": "AI Agents/SaaS/Healthcare",
-      "url": "https://vcnewsdaily.com/translucent/venture-capital-funding/vgkvtcmcxb"
+      "url": "https://vcnewsdaily.com"
     }
   ]
 }
